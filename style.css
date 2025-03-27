@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background: rgb(84,223,187);
+background: linear-gradient(333deg, rgba(84,223,187,0.9968779748227415) 40%, rgba(48,142,214,1) 60%);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.box{
+    height: auto;
+    width: 350px;
+    background-color:wheat;
+    padding: 20px;
+    border-radius:10px ;
+    
+    
+    
+}
+h1{
+    text-align: center;
+}
+.file{
+    height: 50px;
+    width: 80%;
+    margin-top:20px ;
+    border-radius:20px ;
+    margin-left: -10px;
+    border: 1px solid black;
+    padding: 10px;
+    border: 1px solid rgb(77, 122, 98);
+    background-color: white;
+    
+
+}
+.main{
+    display: flex;
+    
+}
+.file i{
+    font-size: 20px;
+   
+}
+ .main button{
+height: 40px;
+width: 90px;
+margin-top:25px;
+margin-left: 10px;
+border: 1px solid rgb(77, 122, 98);
+border-radius: 5px;
+background-color: white;
+font-size: 18px;
+
+
+}
+input{
+    
+    height: 100%;
+    outline: none;
+    border: none;
+    
+
+    
+    
+}
+li{
+    padding: 10px ;
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 10px
+}
+ul{
+    
+    list-style: none;
+margin-top: 10px;
+user-select: none;
+
+    
+    
+}
+.delet-btn{
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.delet-btn:hover{
+    color: brown;
+}
