@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-
 }
 
 .container{
@@ -21,6 +19,7 @@ justify-content: center;
     background-color:wheat;
     padding: 20px;
     border-radius:10px ;
+
     
     
     
@@ -30,15 +29,19 @@ h1{
 }
 .file{
     height: 50px;
-    width: 80%;
-    margin-top:20px ;
+    width: 85%;
+
     border-radius:20px ;
-    margin-left: -10px;
+
     border: 1px solid black;
-    padding: 10px;
+    
     border: 1px solid rgb(77, 122, 98);
     background-color: white;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
 
 }
 .main{
@@ -63,7 +66,7 @@ font-size: 18px;
 }
 input{
     
-    height: 100%;
+    height: 90%;
     outline: none;
     border: none;
     
@@ -100,3 +103,4 @@ user-select: none;
 .delet-btn:hover{
     color: brown;
 }
+

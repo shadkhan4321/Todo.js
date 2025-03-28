@@ -34,7 +34,8 @@
 
 // button.addEventListener("click",()=>{
 //     let li=document.createElement("li")
-//     li.innerText=input.value;
+// li.innerHTML=`${input.value}<button onclick="this.parentNode.remove()"class="delet-btn"><i class="fa-solid fa-trash"></i></button>`
+//     // li.innerText=input.value;
 //     ul.appendChild(li)
 //     input.value=""
 // })
@@ -48,3 +49,4 @@ button.addEventListener("click",()=>{
     ul.appendChild(li)
     input.value=""
 })
+// li.innerHTML=`${input.value}<button onclick="this.parentNode.remove()"class="delet-btn">io</button>`
