@@ -16,10 +16,10 @@ justify-content: center;
 .box{
     height: auto;
     width: 350px;
-    background-color:wheat;
+    background-color:white;
     padding: 20px;
     border-radius:10px ;
-
+    
     
     
     
@@ -31,11 +31,9 @@ h1{
     height: 50px;
     width: 85%;
 
-    border-radius:20px ;
+    border-radius:10px ;
 
-    border: 1px solid black;
-    
-    border: 1px solid rgb(77, 122, 98);
+    border:2px solid rgb(102, 45, 189);
     background-color: white;
     display: flex;
     align-items: center;
@@ -59,16 +57,18 @@ margin-top:25px;
 margin-left: 10px;
 border: 1px solid rgb(77, 122, 98);
 border-radius: 5px;
-background-color: white;
+background-color: rgb(56, 111, 214);
 font-size: 18px;
+color: white;
 
 
 }
 input{
     
-    height: 90%;
+    height: 80%;
     outline: none;
     border: none;
+    
     
 
     
@@ -102,5 +102,14 @@ user-select: none;
 }
 .delet-btn:hover{
     color: brown;
+}
+.edit-icon{
+    border: none;
+    background-color: white;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.edit-icon:hover{
+    color: green;
 }
 
